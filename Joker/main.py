@@ -85,7 +85,6 @@ def main():
                     players_sequence_deal = players_sequence_round[k:] + players_sequence_round[:k]
                 print(card.play_card(players_sequence_deal))
                 print(card.highest_card(players_sequence_deal))
-
             print("round wins: ", play.Game.round_wins)
             print("round bids: ", play.Game.bids)
             print("End of round")
