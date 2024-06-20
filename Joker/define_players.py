@@ -7,7 +7,7 @@ class Players:
     def __init__(self, players):
         self.players = players
 
-    # define who is the last player in the game
+    # define who is the last player in the game.
     def player_sequence(self):
         last_player = random.choice(self.players)
         last_player_index = self.players.index(last_player)

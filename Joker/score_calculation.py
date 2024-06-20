@@ -41,7 +41,6 @@ class Scoring:
         }
 
         Scoring.score_table = score_dict
-
         for player in players:
             Scoring.player_score[player] = round_scores[player]
 
