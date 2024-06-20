@@ -33,7 +33,8 @@ class Deck:
     def update_lead(value):
         Deck.lead_suit = value
 
-    # generate cards for each player
+
+    # generate cards for each player.
     def generate_cards_other_players(self, players):
         player_cards = {}
         for player in players:

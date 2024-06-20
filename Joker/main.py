@@ -66,7 +66,6 @@ def main():
                         bonus = set_bonus[player]
                         score_with_bonus = score + bonus
                         total_summary_scores[player] = score_with_bonus
-
                 print("Scores table", all_scores)
                 print("Total scores", total_summary_scores)
             print(f"Player {players_sequence_round[3]} deals cards. Player {players_sequence_round[0]} starts the game.")

@@ -93,7 +93,6 @@ class Game:
                         break
                     except SyntaxError:
                         print("Please select card from your cards in correct format (e.g. ['8', 'clubs'] or 'Joker')")
-
             else:
                 print(f"{player}'s cards are: {cards.Deck.player_cards[player]}")
                 while True:
